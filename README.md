@@ -4,6 +4,14 @@ Sconce is a dashboard for monitoring and comparing data in real time. It was bui
 
 ![](https://i.imgur.com/cb5ExqZ.png)
 
+## Installation
+
+Install with `pip`:
+
+```
+pip install sconce
+```
+
 ## Usage
 
 To start, create a sconce Job with a name and (optionally) parameters. Jobs with the same name will be displayed together, so you can see how different parameters affect results.
