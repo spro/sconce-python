@@ -40,7 +40,7 @@ class Job:
             print("JOB CLAIMED", r.status_code, r.content)
             sys.exit()
 
-        self.job_id = body['_id']
+        self.job_id = body['id']
         print("Starting job %s at %s" % (self.job_id, time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())))
         self.start_time = time.time()
 
